@@ -46,7 +46,7 @@ class TestAddContact:
             # 将图片添加到报告中
             allure.attach.file("xx.png", attachment_type=allure.attachment_type.PNG)
 
-        assert self.page.contact_saved.get_large_title_text() == name + "123"
+        assert self.page.contact_saved.get_large_title_text() == name + "123456"
 
     
 
